@@ -20,13 +20,6 @@ document.addEventListener("DOMContentLoaded", function (){
             ctx.closePath();
 }
 
-if(posX > canvas.width / 2) 
-{
-    ctx.fillStyle = "blue";
-}
-else {
-    ctx.fillStyle = "red";
-}
         function applyGravity(){
             velocityY += gravity;
             posY += velocityY;
