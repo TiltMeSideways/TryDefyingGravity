@@ -1,0 +1,34 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(135deg, red, blue);
+    background-repeat: no-repeat;
+    height:760px;
+    max-height: 1200vh;
+}
+
+#canvas{
+    display: none ;
+    background: black;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+#playButton{
+    display:block;
+    border:1px black;
+    border-radius: 50px;
+    background:black;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 300px;
+    height: 100px;
+    width: 100px;
+    color:white;
+    font-size:20px;
+}
